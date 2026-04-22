@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background: #1e293b;
+        height: 80px;
+        overflow: hidden;
+        font-family: 'Segoe UI', Arial, sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 6px;
+      }
+      p {
+        font-size: 0.8rem;
+        color: #94a3b8;
+      }
+      a {
+        color: #818cf8;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      .warn {
+        color: #fbbf24;
+        font-weight: 600;
+      }
+    </style>
+  </head>
+  <body>
+    <p><span class="warn">⚠ 自動化テスト練習専用デモサイト</span> — 実際の購入・決済は行われません</p>
+    <p>
+      © 2026 TicketMart &nbsp;|&nbsp;
+      <a onclick="window.parent.location.hash='#/disclaimer'">免責事項</a>
+    </p>
+  </body>
+</html>
